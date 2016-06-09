@@ -83,6 +83,18 @@ span.cm-variable	{ color: #71cdff; }
 	color: #ff8ef0 !important;
 }
 
+/* Tab border if tab is selected */
+
+/* Selected tab in focused tabbar */
+.focused-tabbar .cw-height-null.selected {
+	border-bottom: 2px solid #3399ff;	
+}
+
+/* Selected tab in unfocused tabbar */
+.cw-navbar .cw-height-null {
+	border-bottom: 2px solid #66b3ff;
+}
+
 /* Search Match */
 
 /*
